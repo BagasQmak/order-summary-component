@@ -30,8 +30,7 @@ Web : (screenshot/Screenshot 2021-08-11 at 22-01-39 Frontend Mentor Order summar
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://bagasqmak.github.io/order-summary-component/)
 
 ## My process
 
