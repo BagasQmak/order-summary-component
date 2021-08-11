@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-Mobile : (screenshot/Screenshot 2021-08-11 at 22-02-54 Frontend Mentor Order summary card.png)
-Web : (screenshot/Screenshot 2021-08-11 at 22-01-39 Frontend Mentor Order summary card.png)
+Web : ![Screenshot 2021-08-11 at 22-01-39 Frontend Mentor Order summary card](https://user-images.githubusercontent.com/57252135/129060553-569d5bd3-536a-4352-bece-8be03686818f.png)
+Mobile : ![Screenshot 2021-08-11 at 22-02-54 Frontend Mentor Order summary card](https://user-images.githubusercontent.com/57252135/129060579-cc529be3-cce4-4896-b6d4-65fa62143042.png)
 
 ### Links
 
