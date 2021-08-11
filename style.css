@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  font-family: "Red Hat Display", sans-serif !important;
+  background-color: hsl(225, 89%, 90%) !important;
+}
+
+.box-plan {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  z-index: 99999;
+  border-radius: 20px !important;
+  box-shadow: 0px 7px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card .image {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-title {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.card-text {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.plan {
+  background-color: hsl(225, 43%, 95%);
+  border-radius: 10px;
+}
+
+.type-plan h6 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  line-height: 7px;
+  font-size: 14px;
+}
+
+.type-plan p {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+}
+
+.change-plan a {
+  font-size: 12px;
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.change-plan:hover a {
+  text-decoration: none !important;
+  color: hsl(224, 23%, 55%) !important;
+}
+
+.btn {
+  width: 100%;
+}
+
+.proceed {
+  background-color: hsl(236, 61%, 48%) !important;
+  border-radius: 10px !important;
+  box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.3);
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  padding: 12px 0 10px 0 !important;
+  transition: 0.3s;
+}
+
+.proceed:hover {
+  background-color: hsl(224, 43%, 53%) !important;
+}
+
+.cancel {
+  color: hsl(224, 23%, 55%) !important;
+  font-size: 14px !important;
+  transition: 0.3s;
+}
+
+.cancel:hover {
+  color: hsl(223, 47%, 23%) !important;
+  font-weight: 700;
+}
+
+.background {
+  padding-top: 500px;
+}
+
+.bawah {
+  height: 140px;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: max-content;
+  z-index: 999;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 375px) {
+  #background .background {
+    display: none;
+  }
+
+  .background svg {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .card {
+    top: 0 !important;
+  }
+
+  .box-plan {
+    padding: 0;
+    justify-content: space-around;
+  }
+
+  .box-plan img {
+    margin-left: 40px;
+  }
+
+  .type-plan {
+    margin-right: 60px;
+  }
+
+  .change-plan {
+    margin-right: 20px;
+  }
+
+  .attribution {
+    font-size: 14px;
+  }
+}
